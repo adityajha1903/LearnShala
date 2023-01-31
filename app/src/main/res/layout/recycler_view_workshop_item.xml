@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:id="@+id/card"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="16dp"
+    app:cardCornerRadius="30dp"
+    app:cardBackgroundColor="@color/pink">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/titleTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:textColor="@color/white"
+            tools:text="Algorithm, Intro to Machine Learning"
+            android:layout_margin="16dp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+            android:id="@+id/organisationTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            tools:text="by RESIN REIGN"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@id/titleTV"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <LinearLayout
+            android:id="@+id/ll1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintTop_toBottomOf="@id/organisationTV"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <TextView
+                android:id="@+id/fromTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="04 FEB 2023"
+                android:textColor="@color/white"
+                android:textSize="15sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/from"
+                android:textColor="@color/white"
+                android:textSize="15sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginEnd="32dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintTop_toBottomOf="@id/organisationTV"
+            app:layout_constraintEnd_toEndOf="parent">
+
+            <TextView
+                android:id="@+id/toTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="10 FEB 2023"
+                android:textColor="@color/white"
+                android:textSize="15sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/to"
+                android:layout_gravity="end"
+                android:textColor="@color/white"
+                android:textSize="15sp"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/free"
+            android:textColor="@color/white"
+            android:background="@drawable/tv_bg"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="5dp"
+            android:elevation="2dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/ll1"
+            app:layout_constraintEnd_toStartOf="@id/ll2"
+            app:layout_constraintTop_toTopOf="@id/ll2"
+            app:layout_constraintBottom_toBottomOf="@id/ll1"/>
+
+        <TextView
+            android:id="@+id/applyBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/apply"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:layout_marginTop="13dp"
+            android:textSize="22sp"
+            android:background="@drawable/button_background"
+            android:layout_marginHorizontal="32dp"
+            app:layout_constraintTop_toBottomOf="@id/ll1"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <View
+            android:id="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginHorizontal="20dp"
+            android:background="@drawable/line"
+            app:layout_constraintTop_toBottomOf="@id/applyBtn"/>
+
+        <TextView
+            android:id="@+id/descriptionTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_marginVertical="16dp"
+            android:gravity="center"
+            android:layout_marginHorizontal="16dp"
+            tools:text="An engaging and interactive online workshop to explore how we can look at Heritage as a way to connect to our cultural history and environment through stories. A rich country like India has so many facets to it when we look at it as a rich heritage and not just as history."
+            app:layout_constraintTop_toBottomOf="@id/line"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

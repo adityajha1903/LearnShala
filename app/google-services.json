@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "259655542161",
+    "project_id": "learnshala-90f4e",
+    "storage_bucket": "learnshala-90f4e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:259655542161:android:b6a7f9e87d1e01df03e630",
+        "android_client_info": {
+          "package_name": "com.example.adi.learnshala"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "259655542161-55rg65o0h37rnrq6ffjloh857evkuvbo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSwA9C5T_YQH6JWtqnRBjolmTOqtyWF-A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "259655542161-55rg65o0h37rnrq6ffjloh857evkuvbo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

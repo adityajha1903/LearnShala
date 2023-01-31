@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">LearnShala</string>
+    <string name="learnshala">LearnShala</string>
+    <string name="image">Image</string>
+    <string name="login">LOG IN</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="skip">SKIP</string>
+    <string name="enter_your_name_email_id_password_to_register_with_us">Enter your name, email id, password, to register with us.</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="get_started">Get Started</string>
+    <string name="enter_your_email_id_and_password_to_get_started">Enter your name, email id and password to get started.</string>
+    <string name="don_t_have_an_account">Don\'t have an account</string>
+    <string name="already_have_an_account">Already have an account</string>
+    <string name="tab_layout">Tab layout</string>
+    <string name="view_pager">View pager</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="workshop">Workshop</string>
+    <string name="profile">Profile</string>
+    <string name="from">From</string>
+    <string name="free">Free</string>
+    <string name="to">To</string>
+    <string name="apply">APPLY</string>
+    <string name="applied">APPLIED</string>
+    <string name="you_haven_t_registered_for_any_workshop_yet">You haven\'t registered for any workshop yet</string>
+    <string name="are_you_sure_you_want_to_apply_for_this_workshop">Are you sure you want to apply for this workshop?</string>
+    <string name="no">No</string>
+    <string name="registeration">Registration</string>
+    <string name="yes">Yes</string>
+    <string name="person">person</string>
+    <string name="email_id">Email id</string>
+    <string name="workshops_registered">Workshops registered</string>
+    <string name="_0">0</string>
+    <string name="workshops_attended">Workshops attended</string>
+    <string name="guest">Guest</string>
+    <string name="gmail_com">***********@gmail.com</string>
+    <string name="log_out">log out</string>
+</resources>
